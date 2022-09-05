@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header/Header'
 import About from '../components/home/about'
+import Services from '../components/home/services'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Header/>
       <About />
+      <Services/>
     </div>
   )
 }
