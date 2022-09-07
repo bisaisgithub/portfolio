@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header/Header'
 import About from '../components/home/about'
+import Contact from '../components/home/contact'
 import Portfolio from '../components/home/portfolio'
 import Services from '../components/home/services'
 import styles from '../styles/Home.module.scss'
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Services/>
       <Portfolio />
+      <Contact />
     </div>
   )
 }
