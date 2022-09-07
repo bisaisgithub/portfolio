@@ -231,6 +231,27 @@
       }
       .contactRight{
         flex-basis: 60%;
+        form{
+          width: 100%;
+          input, textarea{
+            width: 100%;
+            border: 0;
+            outline: none;
+            background: #262626;
+            padding: 15px;
+            margin: 15px;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 6px;
+          }
+          .btn2{
+            padding: 14px 60px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            margin-left: 15px;
+          }
+        }
       }
     }
   }

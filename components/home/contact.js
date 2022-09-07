@@ -17,12 +17,12 @@ const Contact = () => {
             </div>
             <a href="/images/my-cv.pdf" download className={`${styles.btn} ${styles.btn2}`}>Download Resume</a>
           </div>
-          <div className={styles.contactLeft}>
+          <div className={styles.contactRight}>
             <form>
               <input type="text" name='name' placeholder='Your Name' required/>
               <input type="email" name='email' placeholder='Your Email' required/>
               <textarea name="message" id="" placeholder='Your Message' rows="6"></textarea>
-              <button type='submit'>Submit</button>
+              <button type='submit' className={`${styles.btn} ${styles.btn2}`}>Submit</button>
             </form>
           </div>
         </div>
