@@ -5,7 +5,8 @@ import About from '../components/home/about'
 import Contact from '../components/home/contact'
 import Portfolio from '../components/home/portfolio'
 import Services from '../components/home/services'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/Home.module.scss';
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Services/>
       <Portfolio />
       <Contact />
+      <Script src="https://kit.fontawesome.com/677d54bf0c.js" crossorigin="anonymous" />
     </div>
   )
 }

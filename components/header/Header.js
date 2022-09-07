@@ -26,7 +26,7 @@ const Header = () => {
         </nav>
         <div className={styles.headerText}>
           <p>Web Developer</p>
-          <h1>Hi, I'm <span>Benar</span> <br/> Isais</h1>
+          <h1>Hi, I{`'`}m <span>Benar</span> <br/> Isais</h1>
         </div>
       </div>
     </header>
