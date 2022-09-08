@@ -7,6 +7,7 @@ import Portfolio from '../components/home/portfolio'
 import Services from '../components/home/services'
 import styles from '../styles/Home.module.scss';
 import Script from 'next/script'
+import Footer from '../components/home/footer'
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <About />
+      {/* <About />
       <Services/>
-      <Portfolio />
-      <Contact />
+      <Portfolio /> */}
+      {/* <Contact /> */}
+      <Footer />
       <Script src="https://kit.fontawesome.com/677d54bf0c.js" crossorigin="anonymous" />
     </div>
   )

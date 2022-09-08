@@ -4,6 +4,9 @@
   background-image: url('../public/images/background.png');
   background-size: cover;
   background-position: center;
+  @media only screen and (max-width: 600px){
+    background-image: url('../public/images/phone-background.png');
+  }
   .container{
     padding: 10px 10%;
     .nav{
@@ -38,6 +41,37 @@
               width: 100%;
             }
           }
+          @media only screen and (max-width: 600px){
+            display: block;
+            margin: 25px;
+          }
+        }
+        i{
+          @media only screen and (max-width: 600px){
+            // left: 25px;
+          }
+        }
+        @media only screen and (max-width: 600px){
+          background-color: var(--red);
+          position: fixed;
+          top: 0;
+          right: -200px;
+          width: 180px;
+          height: 100vh;
+          padding-top: 50px;
+          z-index: 2;
+          transition: right 0.5s;
+        }
+      }
+      i{
+        display: none;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        @media only screen and (max-width:600px) {
+          display: block;
+          font-size: 25px;
         }
       }
     }
@@ -45,9 +79,16 @@
       margin-top: 20%;
       font-size: 30px;
       color: var(--font);
+      @media only screen and (max-width: 600px){
+        margin-top: 100%;
+        font-size: 16px;
+      }
       h1{
         font-size: 60px;
         margin-top: 20px;
+        @media only screen and (max-width: 600px){
+          font-size: 30px;
+        }
         span{
           color: var(--red);
         }

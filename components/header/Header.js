@@ -1,12 +1,19 @@
+import { useState } from "react";
 import styles from "../../styles/Header.module.scss";
 
 const Header = () => {
+  const [rightValue, setRightValue] = useState('-200');
   return (
     <header className={styles.header} id='home'>
       <div className={styles.container}>
         <nav className={styles.nav}>
           <img className={styles.logo} src="./images/logo.png" alt="logo" />
-          <ul>
+          <ul 
+            style={{right: 
+              `${rightValue}px`
+              // '-00px'
+            }}
+            >
             <li>
               <a href="#home">Home</a>
             </li>
@@ -22,7 +29,9 @@ const Header = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <i className="fa-solid fa-xmark" onClick={()=>setRightValue('-200')}></i>
           </ul>
+          <i className="fa-solid fa-bars" onClick={()=>setRightValue('0')}></i>
         </nav>
         <div className={styles.headerText}>
           <p>Web Developer</p>
