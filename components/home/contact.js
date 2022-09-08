@@ -16,10 +16,10 @@ const Contact = () => {
               <a href="#">FB</a>
               <a href="#">FB</a>
             </div> */}
-            <div>
-              <a href={''} className={`${styles.btn} ${styles.btn2}`}>Receive Resume via Email</a>
+           
+              {/* <a href={''} className={`${styles.btn} ${styles.btn2}`}>Receive Resume via Email</a> */}
              <a href="/images/my-cv.pdf" className={`${styles.btn} ${styles.btn2}`}>Download Resume</a>
-            </div>
+            
           </div>
           <div className={styles.contactRight}>
             <form>
