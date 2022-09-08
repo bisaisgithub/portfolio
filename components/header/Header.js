@@ -7,7 +7,8 @@ const Header = () => {
     <header className={styles.header} id='home'>
       <div className={styles.container}>
         <nav className={styles.nav}>
-          <img className={styles.logo} src="./images/logo.png" alt="logo" />
+          <h3>Ben<span>Ar</span></h3>
+          {/* <img className={styles.logo} src="./images/logo.png" alt="logo" /> */}
           <ul 
             style={{right: 
               `${rightValue}px`
@@ -35,7 +36,7 @@ const Header = () => {
         </nav>
         <div className={styles.headerText}>
           <p>Web Developer</p>
-          <h1>Hi, I{`'`}m <span>Benar</span> <br/> Isais</h1>
+          <h1>Hi, I{`'`}m <br/> <span>Benar</span> Isais</h1>
         </div>
       </div>
     </header>

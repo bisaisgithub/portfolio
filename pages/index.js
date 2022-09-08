@@ -18,10 +18,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      {/* <About />
+      <About />
       <Services/>
-      <Portfolio /> */}
-      {/* <Contact /> */}
+      <Portfolio />
+      <Contact />
       <Footer />
       <Script src="https://kit.fontawesome.com/677d54bf0c.js" crossorigin="anonymous" />
     </div>

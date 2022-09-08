@@ -22,7 +22,7 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.col1}>
-            <img src="images/user.png" alt="user" />
+            <img src="images/about2.png" alt="user" />
           </div>
           <div className={styles.col2}>
             <h2>About Me</h2>
