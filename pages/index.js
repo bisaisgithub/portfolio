@@ -8,8 +8,18 @@ import Services from '../components/home/services'
 import styles from '../styles/Home.module.scss';
 import Script from 'next/script'
 import Footer from '../components/home/footer'
+import ToastPortfolioNotification from '../components/notification/ToastPorfolioNotification'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+  const [showToastPortfolioNotification, setShowToastPortfolioNotification] = useState(true);
+  useEffect(()=>{
+    setTimeout(()=>{
+      setShowToastPortfolioNotification(false)
+    }, 3000)
+  })
+  
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -23,6 +33,9 @@ export default function Home() {
       <Portfolio />
       <Contact />
       <Footer />
+      {
+        showToastPortfolioNotification && <ToastPortfolioNotification />
+      }
       <Script src="https://kit.fontawesome.com/677d54bf0c.js" crossorigin="anonymous" />
     </div>
   )
