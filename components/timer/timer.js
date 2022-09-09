@@ -62,7 +62,7 @@ const Timer = () => {
   
         // This is where you need to adjust if 
         // you entend to add more time
-        deadline.setSeconds(deadline.getSeconds() + 10);
+        deadline.setSeconds(deadline.getSeconds() + 3);
         return deadline;
     }
   
