@@ -13,11 +13,12 @@ import { useEffect, useState } from 'react'
 
 export default function Home() {
   const [showToastPortfolioNotification, setShowToastPortfolioNotification] = useState(true);
+
   useEffect(()=>{
     setTimeout(()=>{
       setShowToastPortfolioNotification(false)
     }, 3000)
-  })
+  });
   
   
   return (

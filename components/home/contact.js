@@ -18,7 +18,7 @@ const Contact = () => {
             </div> */}
            
               {/* <a href={''} className={`${styles.btn} ${styles.btn2}`}>Receive Resume via Email</a> */}
-             <a href="/images/my-cv.pdf" className={`${styles.btn} ${styles.btn2}`}>Download Resume</a>
+             <a href="/images/Benar-resume.pdf" className={`${styles.btn} ${styles.btn2}`}>Download Resume</a>
             
           </div>
           <div className={styles.contactRight}>
