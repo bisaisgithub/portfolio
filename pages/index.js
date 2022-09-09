@@ -30,9 +30,9 @@ export default function Home() {
       </Head>
       <Header/>
       <About />
-      <Services/>
       <Portfolio />
       <Contact />
+      <Services/>
       <Footer />
       {
         showToastPortfolioNotification && <ToastPortfolioNotification />

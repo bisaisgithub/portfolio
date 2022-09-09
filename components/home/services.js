@@ -4,10 +4,10 @@ const Services = () => {
   return (
     <div className={styles.services} id='services'>
       <div className={styles.container}>
-        <h2 className={styles.subTitle}>My Services</h2>
+        <h2 className={styles.subTitle}>Sample Cards</h2>
         <div className={styles.servicesList}>
           <div>
-            <h3>Web Design</h3>
+            <h3>Sample Card</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
               aspernatur voluptatem! Dolorem, perspiciatis eum vitae reiciendis
@@ -17,7 +17,7 @@ const Services = () => {
             <a href="#">learn more</a>
           </div>
           <div>
-            <h3>UI/UX Design</h3>
+            <h3>Sample Card</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
               aspernatur voluptatem! Dolorem, perspiciatis eum vitae reiciendis
@@ -27,7 +27,7 @@ const Services = () => {
             <a href="#">learn more</a>
           </div>
           <div>
-            <h3>App Design</h3>
+            <h3>Sample Card</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
               aspernatur voluptatem! Dolorem, perspiciatis eum vitae reiciendis
