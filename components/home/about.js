@@ -145,7 +145,7 @@ const About = () => {
               <ul>
                 {
                   data.experience.map((exp, i)=>(
-                    <li>
+                    <li key={i}>
                       <span>{exp.title}</span>
                       <p>{exp.designation}</p>
                     </li>
@@ -163,7 +163,7 @@ const About = () => {
               <ul>
                 {
                   data.education.map((edu, i)=>(
-                    <li>
+                    <li key={i}>
                       <span>{edu.year}</span>
                       <p>{edu.course}</p>
                     </li>
