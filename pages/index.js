@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(()=>{
     setTimeout(()=>{
-      setShowToastPortfolioNotification(false)
+      setShowToastPortfolioNotification(false);
     }, 3000)
   });
   

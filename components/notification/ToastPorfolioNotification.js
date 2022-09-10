@@ -6,7 +6,7 @@ const ToastPortfolioNotification = () => {
   const lists =[
     'Login with token, backend API, Mongodb',
     'Fade In/Out Animation',
-    'More Content...'
+    'More Sample Component'
   ];
   return ( 
     <div className={styles.container}>
