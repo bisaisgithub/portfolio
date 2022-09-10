@@ -1,0 +1,19 @@
+.sampleComponents {
+ 
+  .btn {
+    display: inline-flex;
+    margin: 10px 10%;
+    width: 80%;
+    border: 1px solid var(--red);
+    padding: 20px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--red);
+    width: 290px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+}

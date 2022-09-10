@@ -12,7 +12,7 @@ const About = () => {
       },
       {
         title: "Back-End Development",
-        stack: "Nodejs Express, MongoDB, MySQL",
+        stack: "Nodejs Express, MongoDB, MySQL, JWT",
       }
     ],
     experience: [

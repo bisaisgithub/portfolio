@@ -1,6 +1,6 @@
 import styles from "../../styles/Home.module.scss";
 
-const Services = () => {
+const SampleCard = () => {
   return (
     <div className={styles.services} id='services'>
       <div className={styles.container}>
@@ -42,4 +42,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default SampleCard;

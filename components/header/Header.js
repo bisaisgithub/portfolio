@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import styles from "../../styles/Header.module.scss";
 
@@ -21,11 +22,11 @@ const Header = () => {
             <li>
               <a href="#about">About</a>
             </li>
-            {/* <li>
-              <a href="#services">Services</a>
-            </li> */}
             <li>
-              <a href="#portfolio">Sample Works</a>
+              <a href="#sample-work">Sample Works</a>
+            </li>
+            <li>
+              <Link href="/sample-components" passHref><a>Sample Components</a></Link>
             </li>
             <li>
               <a href="#contact">Contact</a>

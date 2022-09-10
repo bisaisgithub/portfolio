@@ -3,8 +3,7 @@ import Image from 'next/image'
 import Header from '../components/header/Header'
 import About from '../components/home/about'
 import Contact from '../components/home/contact'
-import Portfolio from '../components/home/portfolio'
-import Services from '../components/home/services'
+import SampleWork from '../components/home/sampleWork'
 import styles from '../styles/Home.module.scss';
 import Script from 'next/script'
 import Footer from '../components/home/footer'
@@ -30,9 +29,8 @@ export default function Home() {
       </Head>
       <Header/>
       <About />
-      <Portfolio />
+      <SampleWork />
       <Contact />
-      <Services/>
       <Footer />
       {
         showToastPortfolioNotification && <ToastPortfolioNotification />
