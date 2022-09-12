@@ -1,4 +1,9 @@
-
+.wrapper{
+  perspective: 10px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .about{
   padding: 80px 0 80px 0;
   color: var(--gray);

@@ -5,8 +5,8 @@ import Timer from '../timer/timer';
 const ToastPortfolioNotification = () => {
   const lists =[
     'Login with token, backend API, Mongodb',
-    'Fade In/Out Animation',
-    'More Sample Component'
+    'More Sample Components',
+    'Sample Landing Pages'
   ];
   return ( 
     <div className={styles.container}>
