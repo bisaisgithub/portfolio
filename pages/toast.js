@@ -62,7 +62,7 @@ const ToastPage = () => {
         <ButtonToast handleClick={()=>{showToast('info')}}>Info</ButtonToast>
         <ButtonToast handleClick={()=>{showToast('warning')}}>Warning</ButtonToast>
       </div>
-      {/* <ToastNotification toastList={list} position='bottomRight' setList={setList}/> */}
+      <ToastNotification toastList={list} position='bottomRight' setList={setList}/>
       {/* <ToastPortfolioNotification /> */}
     </div>
    );

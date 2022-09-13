@@ -1,0 +1,54 @@
+.sampleCard{
+  padding-bottom: 60px;;
+  .container{
+    padding: 10px 10%;
+    .subTitle{
+      font-size: 60px;
+      @media only screen and (max-width: 600px){
+        font-size: 40px;
+      }
+    }
+    .servicesList{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+      grid-gap: 40px;
+      margin-top: 50px;
+      div{
+        background: var(--gray2);
+        padding: 40px;
+        font-size: 13px;
+        font-weight: 300;
+        border-radius: 10px;
+        transition: transform 0.5s, background-color 0.5s;
+        h3{
+          font-size: 30px;
+          color: var(--gray);
+          font-weight: 500;
+          margin-bottom: 15px;
+          @media only screen and (max-width: 600px){
+            font-size: 30px;
+          }
+        }
+        p{
+          font-size: 13px;
+          color: var(--gray);
+        }
+        i{
+          font-size: 50px;
+          margin-bottom: 30px;
+        }
+        a{
+          text-decoration: none;
+          color: #fff;
+          font-size: 12px;
+          margin-top: 20px;
+          display: inline-block;
+        }
+        &:hover{
+          background-color: var(--red);
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+}

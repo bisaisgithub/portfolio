@@ -1,0 +1,14 @@
+.sampleToastNotification{
+  padding: 0px 10% 0 10%;
+  .container{
+    .subTitle{
+      font-size: 60px;
+    }
+    .toastList{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      grid-gap: 40px;
+      margin-top: 50px;
+    }
+  }
+}
