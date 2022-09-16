@@ -15,6 +15,8 @@
       margin-top: 50px;
       div{
         background: var(--gray2);
+        width: 100%;
+        display: block;
         padding: 40px;
         font-size: 13px;
         font-weight: 300;
@@ -43,6 +45,10 @@
           font-size: 12px;
           margin-top: 20px;
           display: inline-block;
+        }
+        span{
+          display: flex;
+          justify-content: space-between;
         }
         &:hover{
           background-color: var(--red);

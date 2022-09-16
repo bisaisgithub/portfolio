@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import styles from "../../styles/Home.module.scss";
+import { FaGithubSquare } from 'react-icons/fa';
+
 
 const Contact = () => {
   const [message, setMessage] = useState({
@@ -10,6 +12,7 @@ const Contact = () => {
   });
   const [messageSent, setMessageSent] = useState(false);
   const [submitting, setSubmitting] =useState('Submit');
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSubmitting('Submitting');
@@ -18,7 +21,7 @@ const Contact = () => {
       message
     );
     if (res.data._id) {
-      await setMessageSent(true);
+      setMessageSent(true);
       setTimeout( ()=>{
         setMessageSent(false);
         setMessage({name:'',email:'',message:''});
@@ -31,6 +34,7 @@ const Contact = () => {
     }
     // console.log("res", res);
   };
+
   return (
     <div className={styles.contact} id="contact">
       <div className={styles.container}>
@@ -46,6 +50,10 @@ const Contact = () => {
             <p>
               <i className="fa-solid fa-mobile-screen"></i>
               <a href="tel:+639569346664">+639569346664</a>{" "}
+            </p>
+            <p>
+              <i><FaGithubSquare/></i>
+              <a href="https://github.com/bisaisgithub" target='_blank' rel="noreferrer">GitHub Account</a>{" "}
             </p>
             {/* <div className={styles.socialIcons}>
               <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -103,7 +111,7 @@ const Contact = () => {
                   submitting
                 }
               </button>
-              {messageSent && <p>Your message has been sent</p>}
+              {messageSent  && <p>Your message has been sent</p> }
             </form>
           </div>
         </div>
