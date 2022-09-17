@@ -54,7 +54,7 @@ const Projects = () => {
   ]);
 
   return (
-    <div className={styles.sampleCard} id="services">
+    <div className={styles.sampleCard} id="projects">
       <div className={styles.container}>
         <h2 className={styles.subTitle}>Projects</h2>
         <div className={styles.servicesList}>
