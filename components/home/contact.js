@@ -52,7 +52,7 @@ const Contact = () => {
               <a href="tel:+639569346664">+639569346664</a>{" "}
             </p>
             <p>
-              <i><FaGithubSquare/></i>
+              <i className={styles.git}><FaGithubSquare/></i>
               <a href="https://github.com/bisaisgithub" target='_blank' rel="noreferrer">GitHub Account</a>{" "}
             </p>
             {/* <div className={styles.socialIcons}>

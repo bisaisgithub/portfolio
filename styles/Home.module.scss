@@ -176,6 +176,11 @@
       flex-wrap: wrap;
       .contactLeft{
         flex-basis: 35%;
+        .git{
+          svg{
+            vertical-align: bottom;
+          }
+        }
         @media only screen and (max-width: 600px){
           flex-basis: 100%;
         }
