@@ -17,6 +17,10 @@ const About = () => {
     ],
     experience: [
       {
+        title: "Sep 29, 2022 - Present",
+        designation: "Junior Software Engineer(Intern) at Tagpros Children Inc."
+      },
+      {
         title: "2014 - 2017",
         designation: "Senior System Analyst at Azizia Panda United Inc."
       },

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import styles from "../../styles/Home.module.scss";
-import { FaGithubSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 
 const Contact = () => {
@@ -55,6 +55,10 @@ const Contact = () => {
               <i className={styles.git}><FaGithubSquare/></i>
               <a href="https://github.com/bisaisgithub" target='_blank' rel="noreferrer">GitHub Account</a>{" "}
             </p>
+            <p>
+              <i className={styles.git}><FaLinkedin/></i>
+              <a href="https://www.linkedin.com/in/benar-isais-617768241/" target='_blank' rel="noreferrer">LinkedIn Account</a>{" "}
+            </p>
             {/* <div className={styles.socialIcons}>
               <a href="#"><i class="fa-brands fa-github"></i></a>
               <a href="#">FB</a>
@@ -64,7 +68,7 @@ const Contact = () => {
 
             {/* <a href={''} className={`${styles.btn} ${styles.btn2}`}>Receive Resume via Email</a> */}
             <a
-              href="/images/Benar-resume.pdf"
+              href="/images/benar-resume.pdf"
               className={`${styles.btn} ${styles.btn2}`}
             >
               Download Resume

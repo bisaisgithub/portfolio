@@ -9,6 +9,7 @@ import Footer from '../components/home/footer'
 import ToastPortfolioNotification from '../components/notification/ToastPorfolioNotification'
 import { useEffect, useState } from 'react'
 import Projects from '../components/home/projects'
+import Projects2 from '../components/home/projects2'
 
 export default function Home() {
   const [showToastPortfolioNotification, setShowToastPortfolioNotification] = useState(true);
@@ -29,6 +30,7 @@ export default function Home() {
       </Head>
       <Header/>
       <About />
+      {/* <Projects2 /> */}
       <Projects />
       <Contact />
       <Footer />

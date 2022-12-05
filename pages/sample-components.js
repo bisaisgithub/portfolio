@@ -7,7 +7,7 @@ import SampleToastNotification from '../components/sample-components/SampleToast
 const SampleComponents = () => {
   return ( 
     <div className={styles.sampleComponents}>
-      <Link href='/' passHref><button className={styles.btn}><FaArrowLeft />Back to Portfolio</button></Link>
+      <Link href='/#contact' passHref><button className={styles.btn}><FaArrowLeft />Back to Portfolio</button></Link>
       <h2 className={styles.title}>Sample Components</h2>
       <SampleCard />
       <SampleToastNotification />

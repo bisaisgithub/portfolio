@@ -9,7 +9,7 @@ const Header = () => {
       <div className={styles.container}>
         <nav className={styles.nav}>
           <h3>
-            Ben<span>Ar</span>
+            B<span>en</span>
           </h3>
           {/* <img className={styles.logo} src="./images/logo.png" alt="logo" /> */}
           <ul
@@ -48,12 +48,13 @@ const Header = () => {
         <div className={styles.headerText}>
           {/* <p>Aspiring Web Developer</p> */}
           <div>
+            <h1>Hi, I{`'`}m</h1>
             <h1>
-              Hi, I{`'`}m <br /> <span>Benar</span> Isais
+              <span>Benar</span> Isais
             </h1>
             <p>Aspiring Web Developer</p>
           </div>
-          <img src="./images/benHeader3.png" alt="" />
+          {/* <img src="./images/benHeader3.png" alt="" /> */}
         </div>
       </div>
     </header>
