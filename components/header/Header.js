@@ -48,10 +48,13 @@ const Header = () => {
         <div className={styles.headerText}>
           {/* <p>Aspiring Web Developer</p> */}
           <div>
-            <h1>Hi, I{`'`}m</h1>
-            <h1>
-              <span>Benar</span> Isais
-            </h1>
+            <div>
+              <h1>Hi, I'm</h1>
+              <h1>
+                <span>Benar</span> Isais
+              </h1>
+            </div>
+
             <p>Aspiring Web Developer</p>
           </div>
           {/* <img src="./images/benHeader3.png" alt="" /> */}
