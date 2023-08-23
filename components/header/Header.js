@@ -4,6 +4,30 @@ import styles from "../../styles/Header.module.scss";
 
 const Header = () => {
   const [rightValue, setRightValue] = useState("-200");
+  // let A = [10,1,2,3,4];
+  // let B = [2,6,3,7,10];
+  // const manualFilter = (A, B)=>{
+  //   let temp = ``;
+  //   for(let i = 0; A.length > i; i++){
+  //     let checkExist = false;
+  //     let j = 0;
+  //     while (B.length > j) {
+  //       if(A[i] === B[j]){
+  //         checkExist = true;
+  //       }
+  //       j++;
+  //     }
+  //     if (!checkExist) {
+  //       if (temp === '') {
+  //         temp = A[i]
+  //       } else {
+  //         temp = `${temp},${A[i]}`
+  //       }
+  //     }
+  //   }
+  //   return temp;
+  // }
+  // console.log('items in A that are not in B :', manualFilter(A,B))
   return (
     <header className={styles.header} id="home">
       <div className={styles.container}>
@@ -49,7 +73,7 @@ const Header = () => {
           {/* <p>Aspiring Web Developer</p> */}
           <div>
             <div>
-              <h1>Hi, I'm</h1>
+              <h1>{`Hi, I'm`}</h1>
               <h1>
                 <span>Benar</span> Isais
               </h1>

@@ -4,15 +4,15 @@ import { useState } from "react";
 const About = () => {
   const [data, setData] = useState({
     about:
-      "A career shifter who fell in love in building useful web apps that improve lives in the community. Spent 15 years in a Largest Retail Company in KSA from stocker to IT coordinator, End User Support, System Analyst. Currently a fourth-year BSIT student in the final trimester Practicum(Intern/OJT)",
+      "A career shifter who fell in love in building useful web apps that improve lives in the community. Spent 15 years in a Largest Retail Company in KSA from stocker to IT coordinator, End User Support, System Analyst. Currently a graduating BSIT student",
     skills: [
       {
         title: "Front-End Development",
-        stack: "NextJS, ReactJS, Javascript, CSS, SASS, HTML"
+        stack: "NextJS, ReactJS, Javascript, CSS, HTML"
       },
       {
         title: "Back-End Development",
-        stack: "NodeJS, ExpressJS, Java, PHP, MongoDB, MySQL, JWT, ",
+        stack: "NodeJS, ExpressJS, Java, PHP, MongoDB, MySQL ",
       }
     ],
     experience: [
