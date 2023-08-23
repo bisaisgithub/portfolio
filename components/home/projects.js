@@ -14,39 +14,31 @@ const Projects = () => {
     {
       title: "Calimlim Dental Clinic System",
       details:
-        "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. On-going project for Calimlim Dental Clinic",
-      link: "https://calimlim.vercel.app/cdcs/login",
-      git: "https://github.com/bisaisgithub/dcs3.git",
-      linkText: "View Site",
-    },
-    {
-      title: "Calimlim Dental Clinic System",
-      details:
-        "Built with ReactJS front-end, Nodejs ExpressJS back-end and MySQL. Old version of the on-going project for Calimlim Dental Clinic",
-      link: "",
-      git: "https://github.com/bisaisgithub/dcs.git",
-      linkText: "",
-    },
-    {
-      title: "Aquilas E-commerce",
-      details:
-        "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. A on-going collaboration project with AMA student",
-      link: "https://aquilas-store-app.vercel.app/",
+        "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. Capstone Project for Calimlim Dental Clinic",
+      link: "https://calimlimdentalclinic.com/",
       git: "",
       linkText: "View Site",
     },
-    {
-      title: "Cadiz Dynamic Website",
-      details:
-        "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. A on-going collaboration project with a refresher",
-      link: "https://cadiz-arkitektuz.vercel.app/",
-      git: "",
-      linkText: "View Site",
-    },
+    // {
+    //   title: "Aquilas E-commerce",
+    //   details:
+    //     "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. A on-going collaboration project with AMA student",
+    //   link: "https://aquilas-store-app.vercel.app/",
+    //   git: "",
+    //   linkText: "View Site",
+    // },
+    // {
+    //   title: "Cadiz Dynamic Website",
+    //   details:
+    //     "Built with Full Stack NextJS(Reactjs+NodeJS ExpressJS) and MongoDB. A on-going collaboration project with a refresher",
+    //   link: "https://cadiz-arkitektuz.vercel.app/",
+    //   git: "",
+    //   linkText: "View Site",
+    // },
     {
       title: "MindTech Student Management System",
       details:
-        "Built with JAVA and MySQL. A Local JAVA Application after TESDA Training project",
+        "A windows executable Java application developed with JAVA and MySQL, intended to fulfill the TESDA requirement after training.",
       link: "",
       linkText: "",
       git: "https://github.com/bisaisgithub/msrms.git",
