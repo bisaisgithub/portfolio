@@ -48,7 +48,7 @@ const About = () => {
       },
       {
         year: "2018 - Present",
-        course: "BSIT 4th year student final term Practicum at AMA Computer College Tarlac Philippines",
+        course: "BSIT Graduating Student at AMA Computer College Tarlac Philippines",
       }
     ]
   });
